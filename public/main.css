@@ -1,0 +1,49 @@
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    height: 10vh;
+}
+
+.app {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat {
+    width: 80%;
+    height: 80%;
+    padding: 1.5em !important;
+}
+.header {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h3 {
+    font-family: Helvetica, sans-serif;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,.8);
+    text-shadow: -1px 2px 5px rgba(0,0,0,.8),
+                 -4px 4px 6px rgba(0,0,0,.6),
+                 -8px 8px 8px rgba(0,0,0,.5),
+                 -12px 12px 11px rgba(0,0,0,.4),
+                 -16px 16px 15px rgba(0,0,0,.3),
+                 -19px 19px 18px rgba(0,0,0,.2),
+                 -22px 22px 21px rgba(0,0,0,.1);
+}
+
+.materialize-textarea {
+    overflow-y: auto !important;
+    border-bottom-color: #03a9f4 !important;
+}
+
+input {
+    border-bottom-color: #03a9f4 !important;
+}
